@@ -1,0 +1,308 @@
+/* Ensure proper sizing */
+* {box-sizing: border-box;}
+   
+html {scroll-behavior: smooth;}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {.row {flex-direction: column;}}
+  
+  /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+  @media screen and (max-width: 400px) {.navbar a {float: none;
+      width: 100%;}}
+
+   img {height: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+.mainHeader {padding: 80px; /* some padding */
+    text-align: center; /* center the text */
+    background: #11a075; /* green background */
+    color: rgb(129, 238, 223); /* white text color */}
+  
+  /* Increase the font size of the <h1> element */
+  .mainHeader h1 {font-size: 60px;}
+
+  .mainHeader p {font-size: 20px;
+    font-style: italic;}
+
+/* Style the top navigation bar */
+.mainNavbar {overflow: hidden; /* Hide overflow */
+    background-color: #033d33; /* Dark background color */}
+  
+  /* Style the navigation bar links */
+  .mainNavbar a {float: left; /* Make sure that the links stay side-by-side */
+    display: block; /* Change the display to block, for responsive reasons (see below) */
+    color: rgb(195, 245, 234); /* White text color */
+    text-align: center; /* Center the text */
+    padding: 14px 20px; /* Add some padding */
+    text-decoration: none; /* Remove underline */}
+  
+  /* Change color on hover/mouse-over */
+  .mainNavbar a:hover {background-color: rgb(195, 245, 234); /* Grey background color */
+    color: #033d33; /* Black text color */}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.mainBody {flex: 30%; /* Set the width of the sidebar */
+    background-color: rgb(129, 238, 223); /* Grey background color */
+    padding: 20px; /* Some padding */}
+    
+    .lotusImage img{position: relative;
+      height: 800px;
+      position: relative;
+      left: 300px;
+    }
+
+
+
+
+
+
+
+
+
+
+.introHeader {padding: 80px; /* some padding */
+  text-align: center; /* center the text */
+  background: #a04a11; /* green background */
+  color: rgb(238, 187, 129); /* white text color */}
+  
+  /* Increase the font size of the <h1> element */
+  .introHeader h1 {font-size: 60px;}
+  
+/* Style the top navigation bar */
+.introNavbar {overflow: hidden; /* Hide overflow */
+  background-color: #3d2203; /* Dark background color */}
+  
+  /* Style the navigation bar links */
+  .introNavbar a {float: left; /* Make sure that the links stay side-by-side */
+    display: block; /* Change the display to block, for responsive reasons (see below) */
+    color: rgb(245, 222, 195); /* White text color */
+    text-align: center; /* Center the text */
+    padding: 14px 20px; /* Add some padding */
+    text-decoration: none; /* Remove underline */}
+  
+  /* Change color on hover/mouse-over */
+  .introNavbar a:hover {background-color: rgb(245, 222, 195); /* Grey background color */
+    color: #3d2203; /* Black text color */}
+
+    .introBody {
+        background-color: rgb(238, 187, 129); /* Grey background color */
+        padding: 20px; /* Some padding */}
+  
+.introBody h1 {text-align: center;
+  font-style: italic;
+  font-size: 40px;}
+
+  .introBody p {text-align: center;
+font-size: 20px;}
+
+.basketballImage{
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+.hobbiesHeader {padding: 80px; /* some padding */
+    text-align: center; /* center the text */
+    background: #a01111; /* green background */
+    color: rgb(238, 129, 129); /* white text color */}
+    
+    /* Increase the font size of the <h1> element */
+    .hobbiesHeader h1 {font-size: 60px;}
+    
+  /* Style the top navigation bar */
+  .hobbiesNavbar {overflow: hidden; /* Hide overflow */
+    background-color: #3d0303; /* Dark background color */}
+    
+    /* Style the navigation bar links */
+    .hobbiesNavbar a {float: left; /* Make sure that the links stay side-by-side */
+      display: block; /* Change the display to block, for responsive reasons (see below) */
+      color: rgb(245, 195, 195); /* White text color */
+      text-align: center; /* Center the text */
+      padding: 14px 20px; /* Add some padding */
+      text-decoration: none; /* Remove underline */}
+    
+    /* Change color on hover/mouse-over */
+    .hobbiesNavbar a:hover {background-color: rgb(245, 195, 195); /* Grey background color */
+      color: #3d0303; /* Black text color */}
+
+      .hobbiesBody {
+        background-color: rgb(238, 129, 129); /* Grey background color */
+        padding: 20px; /* Some padding */}
+    
+  .hobbiesBody h1 {text-align: center;
+    font-style: italic;
+    font-size: 40px;}
+  
+    .hobbiesBody p {text-align: center;
+font-size: 20px;}
+
+.mtgLogo {
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+.skillsHeader {padding: 80px; /* some padding */
+    text-align: center; /* center the text */
+    background: #1a11a0; /* green background */
+    color: rgb(145, 129, 238); /* white text color */}
+    
+    /* Increase the font size of the <h1> element */
+    .skillsHeader h1 {font-size: 60px;}
+    
+  /* Style the top navigation bar */
+  .skillsNavbar {overflow: hidden; /* Hide overflow */
+    background-color: #07033d; /* Dark background color */}
+    
+    /* Style the navigation bar links */
+    .skillsNavbar a {float: left; /* Make sure that the links stay side-by-side */
+      display: block; /* Change the display to block, for responsive reasons (see below) */
+      color: rgb(196, 195, 245); /* White text color */
+      text-align: center; /* Center the text */
+      padding: 14px 20px; /* Add some padding */
+      text-decoration: none; /* Remove underline */}
+    
+    /* Change color on hover/mouse-over */
+    .skillsNavbar a:hover {background-color: rgb(196, 195, 245); /* Grey background color */
+      color: #07033d; /* Black text color */}
+
+      .skillsBody {
+        background-color: rgb(145, 129, 238); /* Grey background color */
+        padding: 20px; /* Some padding */}
+    
+  .skillsBody h1 {text-align: center;
+    font-style: italic;
+    font-size: 40px;}
+  
+    .skillsBody p {text-align: center;
+font-size: 20px;}
+
+.mathImage{
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+.experiencesHeader {padding: 80px; /* some padding */
+    text-align: center; /* center the text */
+    background: #4aa011; /* green background */
+    color: rgb(169, 238, 129); /* white text color */}
+    
+    /* Increase the font size of the <h1> element */
+    .experiencesHeader h1 {font-size: 60px;}
+    
+  /* Style the top navigation bar */
+  .experiencesNavbar {overflow: hidden; /* Hide overflow */
+    background-color: #1d3d03; /* Dark background color */}
+    
+    /* Style the navigation bar links */
+    .experiencesNavbar a {float: left; /* Make sure that the links stay side-by-side */
+      display: block; /* Change the display to block, for responsive reasons (see below) */
+      color: rgb(213, 245, 195); /* White text color */
+      text-align: center; /* Center the text */
+      padding: 14px 20px; /* Add some padding */
+      text-decoration: none; /* Remove underline */}
+    
+    /* Change color on hover/mouse-over */
+    .experiencesNavbar a:hover {background-color: rgb(213, 245, 195); /* Grey background color */
+      color: #1d3d03; /* Black text color */}
+
+      .experiencesBody {
+        background-color: rgb(169, 238, 129); /* Grey background color */
+        padding: 20px; /* Some padding */}
+    
+  .experiencesBody h1 {text-align: center;
+    font-style: italic;
+    font-size: 40px;}
+  
+    .experiencesBody p {text-align: center;
+font-size: 20px;}
+
+.lifeguardImage{
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+.contactHeader {padding: 80px; /* some padding */
+    text-align: center; /* center the text */
+    background: #9b11a0; /* green background */
+    color: rgb(229, 129, 238); /* white text color */}
+    
+    /* Increase the font size of the <h1> element */
+    .contactHeader h1 {font-size: 60px;}
+    
+  /* Style the top navigation bar */
+  .contactNavbar {overflow: hidden; /* Hide overflow */
+    background-color: #33033d; /* Dark background color */}
+    
+    /* Style the navigation bar links */
+    .contactNavbar a {float: left; /* Make sure that the links stay side-by-side */
+      display: block; /* Change the display to block, for responsive reasons (see below) */
+      color: rgb(245, 195, 243); /* White text color */
+      text-align: center; /* Center the text */
+      padding: 14px 20px; /* Add some padding */
+      text-decoration: none; /* Remove underline */}
+    
+    /* Change color on hover/mouse-over */
+    .contactNavbar a:hover {background-color: rgb(245, 195, 243); /* Grey background color */
+      color: #33033d; /* Black text color */}
+
+      .contactBody {
+        background-color: rgb(229, 129, 238); /* Grey background color */
+        padding: 20px; /* Some padding */}
+    
+  .contactBody h1 {text-align: center;
+    font-style: italic;
+    font-size: 40px;}
+  
+    .contactBody p {text-align: center;
+      font-size: 20px;}
+
+    .phoneImage{
+      text-align: center;
+      margin: 20px;
+    }
+
+
+
+
+
+
+
+
+  .footer {
+    padding: 20px; /* Some padding */
+    text-align: center; /* Center text*/
+    background: #ddd; /* Grey background */
+  }
